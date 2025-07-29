@@ -329,7 +329,7 @@ axs[2,1].text(0.001,0.45,'\n'.join((text1,text2)),fontsize=10, \
     backgroundcolor='w',bbox=dict(facecolor='w', edgecolor='k'))
 
 text1 = r'$\lambda_{\mathrm{T}}$ = {} $\mu$m'.replace('{}',f'{wvlT*1e6}')    
-text2 = r'$C_n^2 = 5 \times 10^{-15}$ m$^{2/3}$'
+text2 = r'$C_n^2 = 5 \times 10^{-15}$ m$^{-2/3}$'
 text3 = r'$D$ = {} m'.replace('{}',f'{np.round(D,1)}')
 text4 = r'$z$ = {} km'.replace('{}',f'{np.round(z/1e3,0)}')
 plt.figtext(0,0.72,'\n'.join((text1,text2,text3,text4)),fontsize=10, \
@@ -429,7 +429,7 @@ axs[2,1].text(0.0008,0.195,'\n'.join((text1,text2)),fontsize=10, \
     backgroundcolor='w',bbox=dict(facecolor='w', edgecolor='k'))
 
 text1 = r'$\lambda_{\mathrm{T}}$ = {} $\mu$m'.replace('{}',f'{wvlT*1e6}')    
-text2 = r'$C_n^2 = 5 \times 10^{-15}$ m$^{2/3}$'
+text2 = r'$C_n^2 = 5 \times 10^{-15}$ m$^{-2/3}$'
 text3 = r'$D$ = {} m'.replace('{}',f'{np.round(D,1)}')
 text4 = r'$z$ = {} km'.replace('{}',f'{np.round(z/1e3,0)}')
 plt.figtext(0,0.72,'\n'.join((text1,text2,text3,text4)),fontsize=10, \
